@@ -17,6 +17,7 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
   - Java 8 or greater
   - Git 
   - Maven 3.8.1 or greater
+  - testng
 
 
 * Clone this project to a local environment.
@@ -25,11 +26,13 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
 * Navigate to root of the project and build the project using below command
 >> mvn clean install
 
-* Open the project in an IDE (Preferable: IntellJ Idea)
-
-* Right-click on the project (Assignment_APITest) and click "Run All Tests"
-    - That will execute the acceptance criteria related all tests in this project
-
+* Run tests
+	- Option 1: With below command
+		>> mvn test
+		
+	- Option 2 : Open the project in an IDE (Preferable: IntellJ Idea)
+		- Right-click on the project (Assignment_APITest) and click "Run All Tests"
+		- That will execute the acceptance criteria related all tests in this project
 
 NOTES:
 * Open the "APITest.java" class in side the project. Location: Assignment_APITest\src\test\java\org\example\APITest.java
