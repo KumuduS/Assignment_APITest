@@ -1,7 +1,7 @@
 # Assignment_APITest
 The assignment to test API workflow
 
-This assignment project is to verify below acceptance criteria of the given api end point.
+This assignment project is to verify below acceptance criteria of the given api end point. Automated tests are writtend using REST-assured and testng in Java. 
 
 API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
@@ -18,6 +18,7 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
   - Git 
   - Maven 3.8.1 or greater
   - testng
+  - REST-assured
 
 
 * Clone this project to a local environment.
